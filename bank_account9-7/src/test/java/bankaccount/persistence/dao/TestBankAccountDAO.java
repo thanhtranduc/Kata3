@@ -1,7 +1,9 @@
 package bankaccount.persistence.dao;
 
 import com.qsoft.bankaccount.persistence.dao.BankAccountDAO;
+import com.qsoft.bankaccount.persistence.dao.TransactionDAO;
 import com.qsoft.bankaccount.persistence.model.BankAccountEntity;
+import com.qsoft.bankaccount.persistence.model.TransactionEntity;
 import org.dbunit.DataSourceDatabaseTester;
 import org.dbunit.IDatabaseTester;
 import org.dbunit.dataset.IDataSet;
@@ -20,6 +22,7 @@ import org.springframework.transaction.annotation.Transactional;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.sql.DataSource;
+import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 
@@ -41,6 +44,9 @@ public class TestBankAccountDAO
     private BankAccountDAO bankAccountDAO;
     final static String accountNumber = "1234567890";
     final static double e = 0.01;
+
+    @Autowired
+    private TransactionDAO transactionDAO;
     @Autowired
     private DataSource dataSource;
 
@@ -108,7 +114,7 @@ public class TestBankAccountDAO
     @Test
     public void testSaveNewAccount()
     {
-        BankAccountEntity account = new BankAccountEntity(accountNumber,100);
+        BankAccountEntity account = new BankAccountEntity(accountNumber, 100);
         account.setBalance(100);
         bankAccountDAO.save(account);
 
@@ -117,6 +123,39 @@ public class TestBankAccountDAO
 
         assertEquals(accountAfter.getAccountNumber(), accountNumber);
         assertEquals(accountAfter.getBalance(), 100, e);
+    }
+
+    @Test
+    public void testGetAllTransaction()
+    {
+        List<TransactionEntity> listTransaction = transactionDAO.getTransactionsOccurred(accountNumber);
+
+        assertEquals(listTransaction.size(),2);
+        assertEquals(listTransaction.get(0).getAccountNumber(),accountNumber);
+        assertEquals(listTransaction.get(0).getAmount(),1000,e);
+        assertEquals(listTransaction.get(0).getOpenTimeStamp(),12345678);
+        assertEquals(listTransaction.get(0).getDescription(),"deposit");
+
+        assertEquals(listTransaction.get(1).getAccountNumber(),accountNumber);
+        assertEquals(listTransaction.get(1).getAmount(),1000,e);
+        assertEquals(listTransaction.get(1).getOpenTimeStamp(),123456723);
+        assertEquals(listTransaction.get(1).getDescription(),"withdraw");
+    }
+
+    @Test
+    public void testSaveTransaction(){
+        TransactionEntity transactionEntity = new TransactionEntity(accountNumber,12345,100,"withdraw");
+        transactionDAO.save(transactionEntity);
+
+        List<TransactionEntity> listTransaction = transactionDAO.getTransactionsOccurred(accountNumber);
+
+        assertEquals(listTransaction.get(0).getAccountNumber(),accountNumber);
+        assertEquals(listTransaction.get(0).getAmount(),100,e);
+        assertEquals(listTransaction.get(0).getOpenTimeStamp(),12345);
+        assertEquals(listTransaction.get(0).getDescription(),"withdraw");
+
+
+
     }
 
 

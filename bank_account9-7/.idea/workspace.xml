@@ -15,10 +15,10 @@
     <file path="/BankAccountDAO.java" changelist="3e0a1ad6-d5f6-45c0-ac38-c1d7b9f54240" time="1373355986162" ignored="false" />
     <file path="/TransactionServiceImpl.java" changelist="3e0a1ad6-d5f6-45c0-ac38-c1d7b9f54240" time="1373367116107" ignored="false" />
     <file path="/TestTransactionService.java" changelist="3e0a1ad6-d5f6-45c0-ac38-c1d7b9f54240" time="1373367421215" ignored="false" />
-    <file path="/dataset.xml" changelist="3e0a1ad6-d5f6-45c0-ac38-c1d7b9f54240" time="1373368170691" ignored="false" />
+    <file path="/dataset.xml" changelist="3e0a1ad6-d5f6-45c0-ac38-c1d7b9f54240" time="1373438528535" ignored="false" />
     <file path="/BankAccountEntity.java" changelist="3e0a1ad6-d5f6-45c0-ac38-c1d7b9f54240" time="1373393859204" ignored="false" />
     <file path="/BankAccountDAOImpl.java" changelist="3e0a1ad6-d5f6-45c0-ac38-c1d7b9f54240" time="1373392677977" ignored="false" />
-    <file path="/TestBankAccountDAO.java" changelist="3e0a1ad6-d5f6-45c0-ac38-c1d7b9f54240" time="1373394695857" ignored="false" />
+    <file path="/TestBankAccountDAO.java" changelist="3e0a1ad6-d5f6-45c0-ac38-c1d7b9f54240" time="1373440010328" ignored="false" />
     <file path="$USER_HOME$/Desktop/BankAccount1-7/BankAccount1-7/src/main/java/com/qsoft/bankaccount/persistence/dao/impl/BankAccountDAOImpl.java" changelist="3e0a1ad6-d5f6-45c0-ac38-c1d7b9f54240" time="1373382699001" ignored="false" />
     <file path="/persistence.xml" changelist="3e0a1ad6-d5f6-45c0-ac38-c1d7b9f54240" time="1373387398960" ignored="false" />
     <file path="$USER_HOME$/Desktop/BankAccount1-7/BankAccount1-7/src/main/resources/META-INF/persistence.xml" changelist="3e0a1ad6-d5f6-45c0-ac38-c1d7b9f54240" time="1373387341074" ignored="false" />
@@ -28,10 +28,11 @@
     <file path="/applicationContext.xml" changelist="3e0a1ad6-d5f6-45c0-ac38-c1d7b9f54240" time="1373390778437" ignored="false" />
     <file path="/toDoList.txt" changelist="3e0a1ad6-d5f6-45c0-ac38-c1d7b9f54240" time="1373392304144" ignored="false" />
     <file path="$USER_HOME$/Desktop/BankAccount1-7/BankAccount1-7/src/test/java/com/qsoft/bankaccount/persistence/dao/todoList.txt" changelist="3e0a1ad6-d5f6-45c0-ac38-c1d7b9f54240" time="1373392362165" ignored="false" />
-    <file path="$USER_HOME$/Desktop/BankAccount1-7/BankAccount1-7/src/test/java/com/qsoft/bankaccount/persistence/dao/BankAccountDAOTest.java" changelist="3e0a1ad6-d5f6-45c0-ac38-c1d7b9f54240" time="1373393361709" ignored="false" />
-    <file path="/TransactionDAOImpl.java" changelist="3e0a1ad6-d5f6-45c0-ac38-c1d7b9f54240" time="1373395072919" ignored="false" />
-    <file path="/TransactionEntity.java" changelist="3e0a1ad6-d5f6-45c0-ac38-c1d7b9f54240" time="1373394987063" ignored="false" />
-    <file path="$USER_HOME$/Desktop/BankAccount1-7/BankAccount1-7/src/main/java/com/qsoft/bankaccount/persistence/model/TransactionEntity.java" changelist="3e0a1ad6-d5f6-45c0-ac38-c1d7b9f54240" time="1373395083542" ignored="false" />
+    <file path="$USER_HOME$/Desktop/BankAccount1-7/BankAccount1-7/src/test/java/com/qsoft/bankaccount/persistence/dao/BankAccountDAOTest.java" changelist="3e0a1ad6-d5f6-45c0-ac38-c1d7b9f54240" time="1373440218126" ignored="false" />
+    <file path="/TransactionDAOImpl.java" changelist="3e0a1ad6-d5f6-45c0-ac38-c1d7b9f54240" time="1373439921327" ignored="false" />
+    <file path="/TransactionEntity.java" changelist="3e0a1ad6-d5f6-45c0-ac38-c1d7b9f54240" time="1373439259435" ignored="false" />
+    <file path="$USER_HOME$/Desktop/BankAccount1-7/BankAccount1-7/src/main/java/com/qsoft/bankaccount/persistence/model/TransactionEntity.java" changelist="3e0a1ad6-d5f6-45c0-ac38-c1d7b9f54240" time="1373440234567" ignored="false" />
+    <file path="/a.sql" changelist="3e0a1ad6-d5f6-45c0-ac38-c1d7b9f54240" time="1373438199881" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,10 +121,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="toDoList.txt" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="toDoList.txt" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/bankaccount/persistence/dao/toDoList.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="34" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0">
+            <state line="3" column="73" selection-start="233" selection-end="233" vertical-scroll-proportion="0.094444446">
               <folding />
             </state>
           </provider>
@@ -141,18 +142,7 @@
       <file leaf-file-name="TransactionDAOImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/bankaccount/persistence/dao/impl/TransactionDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BankAccountDAO.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/bankaccount/persistence/dao/BankAccountDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="9" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0">
+            <state line="23" column="47" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -161,10 +151,17 @@
       <file leaf-file-name="TestBankAccountDAO.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/bankaccount/persistence/dao/TestBankAccountDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="24" selection-start="2354" selection-end="2354" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="146" column="59" selection-start="5038" selection-end="5038" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="4" selection-start="2800" selection-end="2800" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -172,7 +169,7 @@
       <file leaf-file-name="TransactionDAO.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/bankaccount/persistence/dao/TransactionDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="28" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0">
+            <state line="13" column="9" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -181,16 +178,18 @@
       <file leaf-file-name="TransactionEntity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/bankaccount/persistence/model/TransactionEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="40" column="11" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dataset.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="dataset.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/dataset.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="111" selection-start="249" selection-end="370" vertical-scroll-proportion="0.15692307">
+            <state line="4" column="71" selection-start="310" selection-end="319" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -217,11 +216,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/qsoft/bankaccount/persistence/dao/BankAccountDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qsoft/bankaccount/persistence/dao/impl/BankAccountDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qsoft/bankaccount/persistence/model/BankAccountEntity.java" />
-        <option value="$PROJECT_DIR$/src/test/java/bankaccount/persistence/dao/toDoList.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/bankaccount/persistence/model/TransactionEntity.java" />
-        <option value="$PROJECT_DIR$/src/test/java/bankaccount/persistence/dao/TestBankAccountDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/bankaccount/persistence/dao/impl/TransactionDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/test/resources/dataset.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/bankaccount/persistence/model/TransactionEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/bankaccount/persistence/dao/impl/TransactionDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/bankaccount/persistence/dao/TestBankAccountDAO.java" />
+        <option value="$PROJECT_DIR$/src/test/java/bankaccount/persistence/dao/toDoList.txt" />
       </list>
     </option>
   </component>
@@ -597,8 +596,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -611,7 +610,7 @@
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="project.propCompiler" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BankAccount_8_7" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -643,63 +642,7 @@
       <recent name="C:\Users\thanhtd\Documents\GitHub\TDD_chauttm\TDD_chauttm\bank_account9-7\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestBankAccountDAO">
-    <configuration default="false" name="TestBankAccountDAO.testSaveSuccessBankAccount" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="bankaccount.persistence.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="bank_account9-7" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="bankaccount.persistence.dao" />
-      <option name="MAIN_CLASS_NAME" value="bankaccount.persistence.dao.TestBankAccountDAO" />
-      <option name="METHOD_NAME" value="testSaveSuccessBankAccount" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestBankAccountDAO.testSaveNewAccount" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="bankaccount.persistence.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="bank_account9-7" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="bankaccount.persistence.dao" />
-      <option name="MAIN_CLASS_NAME" value="bankaccount.persistence.dao.TestBankAccountDAO" />
-      <option name="METHOD_NAME" value="testSaveNewAccount" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestBankAccountDAO.testSaveTransaction">
     <configuration default="false" name="TestBankAccountDAO" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -769,6 +712,62 @@
       <option name="PACKAGE_NAME" value="bankaccount.persistence.dao" />
       <option name="MAIN_CLASS_NAME" value="bankaccount.persistence.dao.TestBankAccountDAO" />
       <option name="METHOD_NAME" value="testGetAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestBankAccountDAO.testGetAllTransaction" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="bankaccount.persistence.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="bank_account9-7" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="bankaccount.persistence.dao" />
+      <option name="MAIN_CLASS_NAME" value="bankaccount.persistence.dao.TestBankAccountDAO" />
+      <option name="METHOD_NAME" value="testGetAllTransaction" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestBankAccountDAO.testSaveTransaction" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="bankaccount.persistence.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="bank_account9-7" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="bankaccount.persistence.dao" />
+      <option name="MAIN_CLASS_NAME" value="bankaccount.persistence.dao.TestBankAccountDAO" />
+      <option name="METHOD_NAME" value="testSaveTransaction" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -904,19 +903,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TestBankAccountDAO.testSaveSuccessBankAccount" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestBankAccountDAO.testSaveNewAccount" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestBankAccountDAO" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestBankAccountDAO.testSaveSuccessExistingBankAccount" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestBankAccountDAO.testGetAccount" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TestBankAccountDAO" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestBankAccountDAO.testSaveSuccessExistingBankAccount" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestBankAccountDAO.testGetAccount" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestBankAccountDAO.testGetAllTransaction" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestBankAccountDAO.testSaveTransaction" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestBankAccountDAO" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestBankAccountDAO.testGetAccount" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestBankAccountDAO.testSaveSuccessExistingBankAccount" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestBankAccountDAO.testSaveNewAccount" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestBankAccountDAO.testSaveSuccessBankAccount" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestBankAccountDAO.testSaveTransaction" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestBankAccountDAO.testGetAllTransaction" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestBankAccountDAO" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestBankAccountDAO.testGetAccount" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestBankAccountDAO.testSaveSuccessExistingBankAccount" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -941,7 +940,7 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1280303" sideWeight="0.7094017" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.033333335" sideWeight="0.7076923" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17435898" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -949,7 +948,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32820514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -957,13 +955,14 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15151516" sideWeight="0.94017094" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2931818" sideWeight="0.63589746" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36410257" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29090908" sideWeight="0.7076923" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2923077" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5675214" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32820514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1034,23 +1033,17 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/resources/META-INF/persistenceTest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/dbTest.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/testContext.xml">
@@ -1061,18 +1054,6 @@
             <element signature="e#1648#1659#0" expanded="true" />
             <element signature="e#1702#1718#0" expanded="true" />
             <element signature="e#1761#1777#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="56" selection-start="2880" selection-end="2880" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#2059#2073#0" expanded="true" />
-            <element signature="e#2148#2159#0" expanded="true" />
-            <element signature="e#2202#2218#0" expanded="true" />
-            <element signature="e#2261#2277#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1098,40 +1079,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/bankaccount/persistence/dao/toDoList.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="34" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/bankaccount/persistence/model/TransactionEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/bankaccount/persistence/model/BankAccountEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="57" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/bankaccount/persistence/dao/TransactionDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="28" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/bankaccount/persistence/dao/impl/TransactionDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1142,18 +1093,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="4" selection-start="2800" selection-end="2800" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/dataset.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="71" selection-start="310" selection-end="319" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/bankaccount/persistence/dao/TransactionDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="9" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/bankaccount/persistence/dao/impl/TransactionDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="47" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/bankaccount/persistence/dao/TestBankAccountDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="24" selection-start="2354" selection-end="2354" vertical-scroll-proportion="0.0">
+        <state line="146" column="59" selection-start="5038" selection-end="5038" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/bankaccount/persistence/model/TransactionEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="11" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/dataset.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/bankaccount/persistence/dao/toDoList.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="111" selection-start="249" selection-end="370" vertical-scroll-proportion="0.15692307">
+        <state line="3" column="73" selection-start="233" selection-end="233" vertical-scroll-proportion="0.094444446">
           <folding />
         </state>
       </provider>

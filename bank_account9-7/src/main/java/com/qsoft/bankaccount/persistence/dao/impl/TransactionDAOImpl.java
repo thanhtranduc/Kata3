@@ -3,6 +3,9 @@ package com.qsoft.bankaccount.persistence.dao.impl;
 import com.qsoft.bankaccount.persistence.dao.TransactionDAO;
 import com.qsoft.bankaccount.persistence.model.TransactionEntity;
 
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.persistence.Query;
 import java.util.List;
 
 /**
@@ -12,19 +15,21 @@ import java.util.List;
  */
 public class TransactionDAOImpl implements TransactionDAO
 {
-//    @PersistenceContext
-//    private EntityManager entityManager;
+    @PersistenceContext
+    private EntityManager entityManager;
 
     @Override
     public void save(TransactionEntity transactionEntity)
     {
-      //  entityManager.persist(transactionEntity);
+        entityManager.persist(transactionEntity);
     }
 
     @Override
     public List<TransactionEntity> getTransactionsOccurred(String accountNumber)
     {
-       return null;// Query query = entityManager.createQuery("select o from TransactionEntity o where o.accountNumber = :qAccountNumber", TransactionEntity.class);
+       Query query = entityManager.createQuery("select o from TransactionEntity o where o.account_Number = :qAccountNumber",TransactionEntity.class);
+       query.setParameter("qAccountNumber",accountNumber);
+       return query.getResultList();
     }
 
     @Override

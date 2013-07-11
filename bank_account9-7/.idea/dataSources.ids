@@ -2312,6 +2312,18 @@
       <column name="open_time_stamp" sqlType="int8" length="19" precision="0" nullable="true" jdbcType="-5"/>
       <primary-key name="bank_account_pkey" columns="id"/>
     </table>
+    <table name="seq_id" schema="public" catalog="bank_account" type="SEQUENCE">
+      <column name="sequence_name" sqlType="name" length="2147483647" precision="0" nullable="false" jdbcType="12"/>
+      <column name="last_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="start_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="increment_by" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="max_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="min_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="cache_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="log_cnt" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="is_cycled" sqlType="bool" length="1" precision="0" nullable="false" jdbcType="-7"/>
+      <column name="is_called" sqlType="bool" length="1" precision="0" nullable="false" jdbcType="-7"/>
+    </table>
     <table name="seq_id1" schema="public" catalog="bank_account" type="SEQUENCE">
       <column name="sequence_name" sqlType="name" length="2147483647" precision="0" nullable="false" jdbcType="12"/>
       <column name="last_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
@@ -2323,6 +2335,14 @@
       <column name="log_cnt" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
       <column name="is_cycled" sqlType="bool" length="1" precision="0" nullable="false" jdbcType="-7"/>
       <column name="is_called" sqlType="bool" length="1" precision="0" nullable="false" jdbcType="-7"/>
+    </table>
+    <table name="transaction" schema="public" catalog="bank_account" type="TABLE">
+      <column name="id" sqlType="bigserial" length="19" precision="0" nullable="false" jdbcType="-5" def="bmV4dHZhbCgnc2VxX2lkJzo6cmVnY2xhc3Mp"/>
+      <column name="account_number" sqlType="varchar" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <column name="amount" sqlType="float4" length="8" precision="8" nullable="true" jdbcType="7"/>
+      <column name="open_time_stamp" sqlType="int8" length="19" precision="0" nullable="true" jdbcType="-5"/>
+      <column name="description" sqlType="varchar" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <primary-key name="transaction_pkey" columns="id"/>
     </table>
     <procedure name="_pg_char_max_length" schema="information_schema" catalog="bank_account" type="2">
       <prototype return="true">
