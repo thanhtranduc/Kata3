@@ -22,6 +22,7 @@ public class TransactionDAOImpl implements TransactionDAO
     public void save(TransactionEntity transactionEntity)
     {
         entityManager.persist(transactionEntity);
+        entityManager.flush();
     }
 
     @Override
@@ -35,12 +36,19 @@ public class TransactionDAOImpl implements TransactionDAO
     @Override
     public List<TransactionEntity> getTransactionsOccurred(String accountNumber, long starTime, long stopTime)
     {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        Query query = entityManager.createQuery("select o from TransactionEntity o where o.account_Number = :qAccountNumber and o.openTimeStamp >= :qStartTime and o.openTimeStamp <= :qStopTime",TransactionEntity.class);
+        query.setParameter("qAccountNumber",accountNumber);
+        query.setParameter("qStopTime",stopTime);
+        query.setParameter("qStartTime",starTime);
+        return query.getResultList();
     }
 
     @Override
     public List<TransactionEntity> getTransactionsOccurred(String accountNumber, int n)
     {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        Query query = entityManager.createQuery("select o from TransactionEntity o where o.account_Number = :qAccountNumber order by o.openTimeStamp desc ", TransactionEntity.class);
+        query.setMaxResults(n);
+        query.setParameter("qAccountNumber", accountNumber);
+        return query.getResultList();
     }
 }

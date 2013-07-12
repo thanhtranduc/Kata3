@@ -61,10 +61,5 @@ public class TransactionServiceImpl implements TransactionService
         //To change body of implemented methods use File | Settings | File Templates.
     }
 
-    @Override
-    public void setDao(TransactionDAO mockTransactionDao)
-    {
-        //To change body of implemented methods use File | Settings | File Templates.
-    }
 
 }

@@ -2,8 +2,7 @@
 2. Test trả về giá trị null khi lấy tài khoản không tồn tại trong db
 3. Test lưu tài khoản mới vào DB thành công
 4. Test lưu tài khoản đã tồn tại trong DB rồi thì có thực hiện được không
-5. Test save thành công tất cả các transaction
-6. Test lấy tất cả các Transaction
+5. Test lấy tất cả các Transaction
+6. Test save thành công tất cả các transaction
 7. Test lấy tất cả transaction giữa 2 khoảng thời gian
 8. Test lấy n transaction
-9. Test trường hợp nhập 1 tài khoản không đúng định dạng

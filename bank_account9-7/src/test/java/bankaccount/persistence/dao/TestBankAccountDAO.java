@@ -114,15 +114,12 @@ public class TestBankAccountDAO
     @Test
     public void testSaveNewAccount()
     {
-        BankAccountEntity account = new BankAccountEntity(accountNumber, 100);
-        account.setBalance(100);
+        BankAccountEntity account = new BankAccountEntity("0987654321", 1000);
         bankAccountDAO.save(account);
+        BankAccountEntity accountAfter = bankAccountDAO.getAccount("0987654321");
 
-
-        BankAccountEntity accountAfter = bankAccountDAO.getAccount(accountNumber);
-
-        assertEquals(accountAfter.getAccountNumber(), accountNumber);
-        assertEquals(accountAfter.getBalance(), 100, e);
+        assertEquals(accountAfter.getAccountNumber(), "0987654321");
+        assertEquals(accountAfter.getBalance(), 1000, e);
     }
 
     @Test
@@ -144,18 +141,40 @@ public class TestBankAccountDAO
 
     @Test
     public void testSaveTransaction(){
-        TransactionEntity transactionEntity = new TransactionEntity(accountNumber,12345,100,"withdraw");
+        TransactionEntity transactionEntity = new TransactionEntity("0987654321",12345,100,"withdraw");
         transactionDAO.save(transactionEntity);
 
-        List<TransactionEntity> listTransaction = transactionDAO.getTransactionsOccurred(accountNumber);
+        List<TransactionEntity> listTransaction = transactionDAO.getTransactionsOccurred("0987654321");
 
-        assertEquals(listTransaction.get(0).getAccountNumber(),accountNumber);
+        assertEquals(listTransaction.get(0).getAccountNumber(),"0987654321");
         assertEquals(listTransaction.get(0).getAmount(),100,e);
         assertEquals(listTransaction.get(0).getOpenTimeStamp(),12345);
         assertEquals(listTransaction.get(0).getDescription(),"withdraw");
+    }
 
 
+    @Test
+    public void testSaveTransactionBetweenTwoTime(){
+        long startTime = 12345677;
+        long endTime = 12345679;
+        List<TransactionEntity> listTransaction = transactionDAO.getTransactionsOccurred("1234567890",startTime,endTime);
 
+        assertEquals(listTransaction.size(),1);
+        assertEquals(listTransaction.get(0).getAccountNumber(),"1234567890");
+        assertEquals(listTransaction.get(0).getAmount(),1000,e);
+        assertEquals(listTransaction.get(0).getDescription(),"deposit");
+        assertEquals(listTransaction.get(0).getOpenTimeStamp(),12345678);
+    }
+
+    @Test
+    public void testSaveNLatestTransaction(){
+        List<TransactionEntity> listTransaction = transactionDAO.getTransactionsOccurred(accountNumber,1);
+
+        assertEquals(listTransaction.size(),1);
+        assertEquals(listTransaction.get(0).getAccountNumber(),accountNumber);
+        assertEquals(listTransaction.get(0).getAmount(),1000,e);
+        assertEquals(listTransaction.get(0).getOpenTimeStamp(),123456723);
+        assertEquals(listTransaction.get(0).getDescription(),"withdraw");
     }
 
 

@@ -21,8 +21,6 @@ public interface TransactionService
 
     void createTransaction(String accountNumber, int amount, String description);
 
-    void setDao(TransactionDAO mockTransactionDao);
-
     void setTransactionDao(TransactionDAO transactionDao);
 
     void setCalendar(Calendar mockCalendar);
