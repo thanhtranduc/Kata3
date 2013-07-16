@@ -152,7 +152,6 @@ public class TestBankAccountDAO
         assertEquals(listTransaction.get(0).getDescription(),"withdraw");
     }
 
-
     @Test
     public void testSaveTransactionBetweenTwoTime(){
         long startTime = 12345677;
